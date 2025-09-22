@@ -1,4 +1,4 @@
-import { Poppins, Montserrat, Urbanist } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import SmoothScroll from "@/components/SmoothScroll";

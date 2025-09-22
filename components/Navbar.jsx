@@ -20,9 +20,9 @@ const Links = [
 const Navbar = () => {
   return (
     <div className="w-full fixed py-10 flex items-center justify-center z-[999]">
-      <div className="w-[20vw] bg-white rounded-full px-2 py-2 flex items-center justify-between ring ring-primary">
+      <div className="w-[20vw] bg-white rounded-full px-2 py-2 flex items-center justify-between ring ring-primary gap-2">
         <Link href="/">
-          <Image src="/Logo.png" width={40} height={50} alt="Logo" className="pl-3" />
+          <Image src="/Logo.png" width={40} height={50} alt="Logo" className="pl-3 w-80 " />
         </Link>
         <div className="hidden md:flex">
           <div className="flex gap-6 text-primary">
